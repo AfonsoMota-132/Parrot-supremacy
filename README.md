@@ -12,12 +12,15 @@ This project is for the one's with ultimate taste, and trolls, if you find a pc 
 
 Just use this command, and Parrot Supremacy will remain!
 
+This one is for normal tmux!
 ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/Parrot-supremacy/master/Parrot_Supremacy.sh)"
 ```
-    
+
+This one is for oh-my-tmux!
+
 ```bash
-  bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/Parrot-supremacy/master/Parrot_Supremacy.sh)"
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/Parrot-supremacy/master/Parrot_Supremacy_oh_my_tmux.sh)"
 ```
 
 ## Authors
