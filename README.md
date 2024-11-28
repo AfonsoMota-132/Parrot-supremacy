@@ -6,7 +6,8 @@ This project is for the one's with ultimate taste, and trolls, if you find a pc 
 
 ## Demo
 
-https://github.com/AfonsoMota-132/Parrot-supremacy/blob/main/exampl.gif
+![example](https://github.com/user-attachments/assets/ae10edb8-728f-4237-8037-ee2b33a6aa0a)
+
 ## How to run
 
 Just use this command, and Parrot Supremacy will remain!
