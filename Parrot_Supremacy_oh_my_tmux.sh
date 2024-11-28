@@ -47,6 +47,6 @@ if (env | grep TMUX); then
 else
 	tmux new -d -s PARROT
 	sleep 2
-	tmux send-keys -t PARROT.1 './Parrot_Supremacy.sh' ENTER
+	tmux send-keys -t PARROT.1 './Parrot_Supremacy_oh_my_tmux.sh' ENTER
 	tmux a -t PARROT
 fi

@@ -16,6 +16,10 @@ Just use this command, and Parrot Supremacy will remain!
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/Parrot-supremacy/master/Parrot_Supremacy.sh)"
 ```
     
+```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/Parrot-supremacy/master/Parrot_Supremacy.sh)"
+```
+
 ## Authors
 
 - [@AfonsoMota-132](https://github.com/AfonsoMota-132)
