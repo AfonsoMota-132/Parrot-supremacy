@@ -7,7 +7,7 @@ if (env | grep TMUX); then
 	tmux last-pane
 	tmux split-window -p 50 -h
 	
-	tmux select-pane -t 0
+	tmux select-pane -t 1
 	
 	# Second split horizontal
 	
@@ -18,7 +18,7 @@ if (env | grep TMUX); then
 	tmux last-pane
 	tmux split-window -p 50 -h
 	
-	tmux select-pane -t 0
+	tmux select-pane -t 1
 	
 	# Last split horizontal
 	tmux split-window -p 25 -h
@@ -27,7 +27,7 @@ if (env | grep TMUX); then
 	tmux last-pane
 	tmux split-window -p 50 -h
 	
-	tmux select-pane -t 0
+	tmux select-pane -t 1
 	
 	#	PARROT PART YIPPPIEEE
 	
@@ -47,6 +47,6 @@ if (env | grep TMUX); then
 else
 	tmux new -d -s PARROT
 	sleep 2
-	tmux send-keys -t PARROT.0 './Parrot_Supremacy.sh' ENTER
+	tmux send-keys -t PARROT.1 './Parrot_Supremacy.sh' ENTER
 	tmux a -t PARROT
 fi
