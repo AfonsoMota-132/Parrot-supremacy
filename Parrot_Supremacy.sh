@@ -47,6 +47,6 @@ if (env | grep TMUX); then
 else
 	tmux new -d -s PARROT
 	sleep 2
-	tmux send-keys -t PARROT.0 'bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/Parrot-supremacy/master/Parrot_Supremacy.sh)"' ENTER
+	tmux send-keys -t PARROT 'bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/Parrot-supremacy/master/Parrot_Supremacy.sh)"' ENTER
 	tmux a -t PARROT
 fi
